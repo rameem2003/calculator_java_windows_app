@@ -55,7 +55,11 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" pref="442" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel3" pref="442" max="32767" attributes="0"/>
+                          <Component id="jLabel4" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
@@ -75,32 +79,19 @@
                   <Component id="jTextField1" max="32767" attributes="0"/>
                   <Component id="jTextField2" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Group type="102" alignment="3" attributes="0">
-                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
-                      <Component id="jButton1" pref="0" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="3" attributes="0">
-                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
-                      <Component id="jButton2" pref="48" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="3" attributes="0">
-                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
-                      <Component id="jButton3" pref="48" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="3" attributes="0">
-                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
-                      <Component id="jButton4" pref="48" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="3" attributes="0">
-                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
-                      <Component id="jButton5" pref="48" max="32767" attributes="0"/>
-                  </Group>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton1" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jButton2" alignment="0" pref="48" max="32767" attributes="0"/>
+                  <Component id="jButton3" alignment="0" pref="48" max="32767" attributes="0"/>
+                  <Component id="jButton4" alignment="0" pref="48" max="32767" attributes="0"/>
+                  <Component id="jButton5" alignment="0" pref="48" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
               <Component id="jLabel3" min="-2" pref="59" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -214,6 +205,15 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="sansserif" size="18" style="2"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Developer: Mahmood Hassan Rameem"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
